@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DotsLoader">
+        <attr name="lights_noOfCircles" format="integer" />
+        <attr name="lights_circleRadius" format="dimension" />
+        <attr name="lights_circleDistance" format="dimension" />
+        <attr name="lights_circleColor" format="color" />
+        <attr name="light_duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="circleDrawOnlystroke" format="boolean" />
+        <attr name="circleStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>

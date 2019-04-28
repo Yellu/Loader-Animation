@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context="com.animations.MainActivity">
+
+    <com.animations.loaderAnimation.DotsLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:light_duration="150"
+        android:layout_gravity="center"
+        app:lights_circleColor="@color/blue"
+        app:lights_circleDistance="6dp"
+        app:lights_circleRadius="5dp"
+        app:lights_noOfCircles="3" />
+
+</FrameLayout>
